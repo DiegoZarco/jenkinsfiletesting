@@ -23,5 +23,10 @@ pipeline {
             }
 
         }
+        stage('Volume test'){
+            steps{
+            echo 'Volume test execting...'
+            }
+        }
     }
 }
